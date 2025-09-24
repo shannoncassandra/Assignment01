@@ -58,8 +58,11 @@ let iAmNull = null
 console.log(iAmNull)
 
 // STEP 10
-let unaryStr = 'Hello World'
-console.log()
+console.log(typeof 'hello')
+console.log(typeof 42)
+console.log(typeof true)
+console.log(typeof null)
+console.log(typeof undefined)
 
 // STEP 11
 let firstPart = 'Hello Shannon Bee,'
@@ -68,19 +71,42 @@ alert(firstPart + ' ' + secondPart)
 
 // STEP 12
 let name = 'Shannon Bee'
-alert('Hello ${name}, welcome to the JavaScript class!')
+alert(`Hello ${name}, welcome to the JavaScript class!`)
 
 // STEP 13
 let course = 'JavaScript'
-alert('Hello ${name}, welcome to the JavaScript ${course)!')
+alert(`Hello ${name}, welcome to the ${course} class!`)
 
 //STEP 14
+alert(`Hello ${name}, \nWelcome to the ${course} class!`)
 
 //STEP 15
+let newName = prompt("What is your name?")
+newName = name
+
 //STEP 16
+let newCourse = prompt("What class are you taking?")
+newCourse = course
+
 //STEP 17
+let x = 10
+let y = 20
+console.log(x+y)
+
 //STEP 18
+x = 20
+console.log(x+=20)
+
 //STEP 19
+x = 20
+console.log(x*=5)
+
 //STEP 20
+x = 20 % 3
+console.log(x)
+
 //STEP 21
+console.log(5 > 3 && 10 > 3)
+
 //STEP 22
+console.log(10 !=10 || 5 != 5)
